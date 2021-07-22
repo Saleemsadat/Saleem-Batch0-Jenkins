@@ -1,0 +1,21 @@
+why Not use local computer / latops to host the websites?
+1) I have to keep my laptop/computer on all the times
+2)I have to make sure my laptop is secure all the time.
+3) I have to make sure my latop/desktop is always connected to power and internet.
+for these reasons we use servers.
+Always connected to power and high speed internet
+Special layers of physical security
+SDLC:
+1) BA collects the requirements from the client and creates software requirement specification SRS.
+2) Architects will create the software design document
+3) Developers develop the code on local computers / latops once ready they run test cases and once all the test cases are passed they will requst the IT
+department to deploy this cod to Dev Server. (Deploy: picking the application / website from local computer and place it on development servers and giving it a URL
+so that it can be accessed the audience)
+4) QA will request IT for devops team to deploy the code on QA servers
+will very the change --- QAs are not involved in deployment process but we will write an email to devops that the changes are made by the dev tema can you
+deploy on QA server. Make sure the changes the dev team says they added are there. Sometimes changes are not incorporated.
+QA will verify the change and start testing it.
+5) once everthing is tested on QA server, application is deployed on staggin server.
+6) if required application is deployed on performance and security servers.
+7) once testing is completed on stagging, it will be deployed on UAT Servers.
+8) production server
