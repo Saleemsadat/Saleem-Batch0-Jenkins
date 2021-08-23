@@ -19,3 +19,10 @@ QA will verify the change and start testing it.
 6) if required application is deployed on performance and security servers.
 7) once testing is completed on stagging, it will be deployed on UAT Servers.
 8) production server
+
+Commands to build java projects
+javac src/com/collection/Main.java
+cd src
+java com.collection.Main
+commands for Maven projects
+clean install -Dtest=SmokeRunner
